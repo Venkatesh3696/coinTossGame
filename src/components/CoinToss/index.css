@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+}
+.sub-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+}
+.heading {
+  color: #a35200;
+}
+.para {
+  color: #334155;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-style: none;
+}
+.count-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.count {
+  color: #475569;
+}
